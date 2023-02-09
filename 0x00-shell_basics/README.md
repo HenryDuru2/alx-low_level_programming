@@ -10,4 +10,5 @@
 9 Delete Directory
 10 Back 
 11 script that lists all files
-12 File type 
+12 File type
+13 Symbolic Link 
