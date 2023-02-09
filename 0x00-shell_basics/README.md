@@ -5,4 +5,5 @@
 5 Display current directory contents, including hidden files
 6 List file digit only
 7 script that creates a directory
-8 Move that file  
+8 Move that file
+9 Delete File  
