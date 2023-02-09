@@ -4,3 +4,4 @@
 4 Display current directory contents in a long format
 5 Display current directory contents, including hidden files
 6 List file digit only
+7 script that creates a directory 
