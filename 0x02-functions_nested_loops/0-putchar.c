@@ -2,9 +2,9 @@
 #include <stdlib.h>
 #include "main.h"
 /**
- * main -Entry point
+ * main-Print _putchar
  *
- * Return Always 0 (Success)
+ * Return: Always 0 (Success)
 */
 int main(void)
 {
@@ -14,6 +14,7 @@ int main(void)
 	for (i = 0; i < 8; i++)
 	{
 		_putchar(c[i]);
+		_putchar('\n');
 	}
 	return (0);
 }
