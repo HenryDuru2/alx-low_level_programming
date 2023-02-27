@@ -2,7 +2,7 @@
 /**
  * reset_to_98 - changes number to pointer
  *
- * @n:integer or character
+ * @n:resets number to 98
  *
  * Return: Always 0 (Success)
  */
