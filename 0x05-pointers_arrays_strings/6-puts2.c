@@ -7,7 +7,7 @@
  */
 void puts2(char *str)
 {
-	int i;
+	int i = 0;
 
 	while (i >= 0)
 	{
@@ -15,12 +15,9 @@ void puts2(char *str)
 		{
 			_putchar('\n');
 				break;
-
 		}
 		if (i % 2 == 0)
-		{
 			_putchar(str[i]);
-			i++;
-		}
+		i++;
 	}
 }
