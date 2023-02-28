@@ -1,0 +1,26 @@
+#include "main.h"
+/**
+ * puts2 - prints every other character
+ * @str: integer or character
+ *
+ * Return: Always 0
+ */
+void puts2(char *str)
+{
+	int i;
+
+	while (i >= 0)
+	{
+		if (str[i] == '\0')
+		{
+			_putchar('\n');
+				break;
+
+		}
+		if (i % 2 == 0)
+		{
+			_putchar(str[i]);
+			i++;
+		}
+	}
+}
