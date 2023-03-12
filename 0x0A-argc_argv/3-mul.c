@@ -3,8 +3,8 @@
 /**
  * main - Arguments
  *
- * @argc; integer
- * @argv: string 
+ * @argc: integer
+ * @argv: string
  *
  * Return: 0
  */
