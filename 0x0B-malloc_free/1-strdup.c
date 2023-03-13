@@ -13,14 +13,17 @@ char *_strdup(char *str)
 	int i, n = 0;
 	char *s;
 
-	while (str[n] != '\0')
-		n++;
 	if (str == NULL)
 		return (NULL);
+
+	while (str[n] != '\0')
+		n++;
+
 	s = (char *) malloc(n * sizeof(char) + 1);
 	if (s == NULL)
 		return (NULL);
 	for (i = 0; i < n; i++)
 		s[i] = str[i];
+
 	return (s);
 }
